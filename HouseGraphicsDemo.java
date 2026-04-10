@@ -40,10 +40,12 @@ g2d.setColor(Color.LIGHT_GRAY);
 g2d.fillRect(100, 150, 200, 150);
 g2d.setColor(Color.BLACK);
 g2d.drawRect(100, 150, 200, 150);
+
 g2d.setColor(Color.DARK_GRAY);
-g2d.fillRect(100, 80, 200, 70);
+g2d.fillRect(80, 80, 240, 70);
 g2d.setColor(Color.BLACK);
-g2d.drawRect(100, 80, 200, 70);
+g2d.drawRect(80, 80, 240, 70);
+
 g2d.setColor(doorColor);
 g2d.fillRect(DOOR_X, DOOR_Y, DOOR_W, DOOR_H);
 g2d.setColor(Color.BLACK);
